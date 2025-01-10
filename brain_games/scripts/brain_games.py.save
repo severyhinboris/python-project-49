@@ -1,9 +1,14 @@
 from brain_games.cli import welcome_user
 
 
+print("Starting the program...k
+
+
 def main():
    print("Welcome to the Brain Games!")
+   print("Calling welcome_user()...")
    name = welcome_user()
 
 if __name__ == '__main__':
+   print("Calling main()")
    main()
