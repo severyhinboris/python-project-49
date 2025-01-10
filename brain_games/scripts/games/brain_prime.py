@@ -1,7 +1,7 @@
 import random
 
-from brain_games.engine import run_game
 from brain_games.cli import welcome_user
+from brain_games.engine import run_game
 
 
 def is_prime(number):
